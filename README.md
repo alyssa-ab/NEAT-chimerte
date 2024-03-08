@@ -1,5 +1,7 @@
 # The NEAT Project v4.0
-Welcome to the NEAT project, the NExt-generation sequencing Analysis Toolkit, version 4.0. This is our first release of the newest version of NEAT. There is still lots of work to be done. See the [ChangeLog](ChangeLog.md) for notes.
+Welcome to the NEAT project, the NExt-generation sequencing Analysis Toolkit, version 4.0. This is our first (beta) release of the newest version of NEAT. There is still lots of work to be done. See the [ChangeLog](ChangeLog.md) for notes.
+
+We are also working on redeveloping NEAT in Rust, a memory and thread safe language that will lend itself well to the way NEAT works, check that out here: https://github.com/ncsa/rusty-neat
 
 Stay tuned over the coming weeks for exciting updates to NEAT, and learn how to [contribute](CONTRIBUTING.md) yourself. If you'd like to use some of our code, no problem! Just review the [license](LICENSE.md), first.
 
@@ -405,7 +407,3 @@ Mappability track examples: https://github.com/zstephens/neat-repeat/tree/master
 
 ### Note on Sensitive Patient Data
 ICGC's "Access Controlled Data" documentation can be found at <a href = https://docs.icgc.org/portal/access/ target="_blank">https://docs.icgc.org/portal/access/</a>. To have access to controlled germline data, a DACO must be submitted. Open tier data can be obtained without a DACO, but germline alleles that do not match the reference genome are masked and replaced with the reference allele. Controlled data includes unmasked germline alleles.
-
-
-
-
